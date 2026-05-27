@@ -12,7 +12,7 @@ handler = WebhookHandler(os.environ.get("LINE_CHANNEL_SECRET"))
 claude_client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
 # Admin User ID
-ADMIN_USER_ID = "U1adb92ef2e33e6beda1fff9fbce5d017"
+ADMIN_USER_ID = "Uc23d518e8e9be3b3e8ca01b89a638787"
 
 # เก็บ conversation state
 user_sessions = {}
